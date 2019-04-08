@@ -4,7 +4,7 @@ if [ ! -d /usr/local/java ] ; then
 fi
 
 if [ -d /usr/local/java/jdk-8u21 ] ;then
-   echo "jdk exists" 
+   echo "jdk alread exists" 
 else
    cd /usr/local/src/
    wget --continue --no-check-certificate -O jdk-8u201-linux-x64.tar.gz --header "Cookie: oraclelicense=a" https://download.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-linux-x64.tar.gz
